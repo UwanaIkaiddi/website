@@ -142,7 +142,7 @@ kubectl exec -it redis -- redis-cli
 127.0.0.1:6379> CONFIG GET maxmemory
 ```
 
-It should now return the updated value of 2097152 (2MB):
+It should now return the updated value of `2097152` (2MB):
 
 ```shell
 1) "maxmemory"
